@@ -133,6 +133,15 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
 
     @MainActor private var observation: NSObjectProtocol?
 
+    /// Serializes `forwardChangeHistoryEvents` calls. One external save
+    /// posts `CNContactStoreDidChange` many times in a burst; with
+    /// concurrent forwarding, every task fetched with the SAME starting
+    /// token (none had advanced it yet), so observers received the same
+    /// events once per notification — measured 8 duplicate posts for a
+    /// single contact edit. Serialized, the first fetch advances the
+    /// token and the rest of the burst fetches empty history.
+    private let forwardQueue = DispatchQueue(label: "ContactsChangeNotifier.forward", qos: .background)
+
     private func setupContactStore() async throws {
         try await store.requestAccess(for: .contacts)
 
@@ -143,7 +152,7 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
         if nil == lastHistoryToken {
             lastHistoryToken = store.currentHistoryToken
         } else { // get changes since the last update
-            Task.detached(priority: .background) { [weak self] in
+            forwardQueue.async { [weak self] in
                 self?.forwardChangeHistoryEvents()
             }
         }
@@ -178,10 +187,10 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
         //
         // Forwarding unconditionally is safe: `fetchRequest()` already sets
         // `excludedTransactionAuthors` to our own bundle id, so our own
-        // saves produce no events, and `lastHistoryToken` makes repeated
-        // forwards idempotent (CNContactStoreDidChange fires many times per
-        // save; only the first fetch returns events).
-        Task.detached(priority: .background) { [weak self] in
+        // saves produce no events, and `lastHistoryToken` + the serial
+        // forward queue make the notification burst idempotent (only the
+        // first fetch returns events).
+        forwardQueue.async { [weak self] in
             self?.forwardChangeHistoryEvents()
         }
         #else
@@ -195,7 +204,7 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
                 return
             }
 
-            Task.detached(priority: .background) { [weak self] in
+            forwardQueue.async { [weak self] in
                 self?.forwardChangeHistoryEvents()
             }
         }
