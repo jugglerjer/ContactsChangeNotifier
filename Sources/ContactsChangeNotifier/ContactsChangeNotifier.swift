@@ -160,6 +160,31 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
     }
 
     @Sendable @objc private func contactsStoreChanged(isExternal: Bool) {
+        #if os(macOS)
+        // On macOS, always fetch and forward the change history. The iOS
+        // heuristics below don't translate:
+        //
+        //  - `isExternal` keys on the undocumented
+        //    `CNNotificationOriginationExternally` userInfo key, which macOS
+        //    never includes — so every external change (an edit in
+        //    Contacts.app, an iCloud sync) was classified as an internal
+        //    echo, dropped, and — because the guard's else-branch advances
+        //    `lastHistoryToken` — permanently skipped: even the next
+        //    launch's replay couldn't see it.
+        //  - `applicationIsActive()` means "app is frontmost" on macOS, not
+        //    "the user is inside our app making changes"; a change
+        //    notification landing after the user switches back to the app
+        //    would be dropped the same way.
+        //
+        // Forwarding unconditionally is safe: `fetchRequest()` already sets
+        // `excludedTransactionAuthors` to our own bundle id, so our own
+        // saves produce no events, and `lastHistoryToken` makes repeated
+        // forwards idempotent (CNContactStoreDidChange fires many times per
+        // save; only the first fetch returns events).
+        Task.detached(priority: .background) { [weak self] in
+            self?.forwardChangeHistoryEvents()
+        }
+        #else
         // avoid phantom echoes of internal changes by checking application state:
         //   .background => called from background refresh => external change
         //   .inactive => called when app opened => external change
@@ -174,6 +199,7 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
                 self?.forwardChangeHistoryEvents()
             }
         }
+        #endif
     }
 
     @MainActor
