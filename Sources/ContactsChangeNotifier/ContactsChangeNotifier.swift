@@ -227,7 +227,14 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
             lastHistoryToken = store.currentHistoryToken
             let changeHistoryEvents = changes.compactMap { $0 as? CNChangeHistoryEvent }
             guard !changeHistoryEvents.isEmpty else { return }
-            Task { @MainActor [weak self] in
+            // Explicit priority: a bare `Task {}` here would inherit
+            // `forwardQueue`'s .background QoS, and observers run inside
+            // this task, so every `Task {}` they start would be .background
+            // too. On Apple silicon .background runs only on the efficiency
+            // cores and gets a new thread only while fewer than two of the
+            // process's threads are busy, so observer work (and anything it
+            // waits on, like Firestore writes) can stall for minutes.
+            Task(priority: .utility) { @MainActor [weak self] in
                 self?.postNotification(changeHistoryEvents: changeHistoryEvents)
             }
         } catch {
