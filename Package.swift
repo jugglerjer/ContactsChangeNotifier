@@ -20,6 +20,10 @@ let package = Package(
             dependencies: ["ContactStoreChangeHistory"],
             resources: [.process("PrivacyInfo.xcprivacy")]
         ),
+        .testTarget(
+            name: "ContactsChangeNotifierTests",
+            dependencies: ["ContactsChangeNotifier"]
+        ),
     ],
     swiftLanguageVersions: [.v5]
 )

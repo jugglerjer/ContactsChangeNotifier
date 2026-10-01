@@ -203,9 +203,16 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
     /// Get contacts change events and post them in a `didChangeNotification`
     private func forwardChangeHistoryEvents() {
         do {
-            let changes = try changeHistory()
-            lastHistoryToken = store.currentHistoryToken
-            let changeHistoryEvents = changes.compactMap { $0 as? CNChangeHistoryEvent }
+            let changeHistoryEvents = try ChangeHistoryForwardStep.run(tokenStorage: historyTokenStorage) { startingToken in
+                fetchRequest.startingToken = startingToken
+                var error: NSError?
+                let fetchResult = store.swiftEnumerator(for: fetchRequest, error: &error)
+                if let error = error { throw error }
+                return (
+                    events: fetchResult.value.compactMap { $0 as? CNChangeHistoryEvent },
+                    token: fetchResult.currentHistoryToken
+                )
+            }
             guard !changeHistoryEvents.isEmpty else { return }
             // Explicit priority: a bare `Task {}` here would inherit
             // `forwardQueue`'s .background QoS, and observers run inside
@@ -230,6 +237,33 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
             object: self,
             userInfo: [Notification.contactsChangeEventsKey: changeHistoryEvents]
         )
+    }
+}
+
+/// One forward of change history, without a `CNContactStore`, so it can be tested.
+enum ChangeHistoryForwardStep {
+    /// Fetches the change history since `startingToken` and returns its
+    /// events plus the history token as of that same fetch.
+    typealias Fetch = (_ startingToken: Data?) throws -> (events: [CNChangeHistoryEvent], token: Data)
+
+    /// Fetches the history since the stored token, stores the fetch's own
+    /// token, and returns the events to post (empty: nothing to post).
+    ///
+    /// The stored token is the fetch result's `currentHistoryToken`, not a
+    /// fresh `CNContactStore.currentHistoryToken` read afterwards: a change
+    /// that landed between the fetch and that read would be skipped for
+    /// good, because the next fetch starts after it.
+    ///
+    /// Every event is returned, including `CNChangeHistoryDropEverythingEvent`:
+    /// only the observer can re-read its own state, and the token still
+    /// advances so the same drop isn't delivered again.
+    ///
+    /// A failed fetch throws before the token moves, so the next
+    /// notification retries from the same point.
+    static func run(tokenStorage: HistoryTokenStorage, fetch: Fetch) throws -> [CNChangeHistoryEvent] {
+        let result = try fetch(tokenStorage.tokenData)
+        tokenStorage.tokenData = result.token
+        return result.events
     }
 }
 
