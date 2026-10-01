@@ -7,12 +7,6 @@
 
 @preconcurrency import Contacts
 
-#if os(iOS)
-import UIKit
-#elseif os(macOS)
-import AppKit
-#endif
-
 #if !COCOAPODS
 import ContactStoreChangeHistory
 #endif
@@ -30,6 +24,13 @@ public extension CNChangeHistoryFetchRequest {
     /// Creates a request with sensible defaults:
     /// Only retrieve contact identifiers, and ignore changes with the `transactionAuthor == Bundle.main.bundleIdentifier`.
     /// Pass parameters to override defaults.
+    ///
+    /// `excludedTransactionAuthors` is the only echo suppression: the
+    /// notifier forwards every `CNContactStoreDidChange` (see
+    /// `contactsStoreChanged()`). An app that saves to Contacts should set an
+    /// explicit `CNSaveRequest.transactionAuthor` on its saves and pass that
+    /// same constant here, e.g.
+    /// `.fetchRequest(excludedTransactionAuthors: [bundleID, myWriterAuthor])`.
     static func fetchRequest(
         shouldUnifyResults: Bool = true,
         includeGroupChanges: Bool = true,
@@ -162,62 +163,41 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
                 forName: .CNContactStoreDidChange,
                 object: nil,
                 queue: .main
-            ) { [weak self] notification in
-                self?.contactsStoreChanged(isExternal: notification.isContactsStoreChangeExternal)
+            ) { [weak self] _ in
+                self?.contactsStoreChanged()
             }
         }
     }
 
-    @Sendable @objc private func contactsStoreChanged(isExternal: Bool) {
-        #if os(macOS)
-        // On macOS, always fetch and forward the change history. The iOS
-        // heuristics below don't translate:
+    @Sendable @objc private func contactsStoreChanged() {
+        // Always fetch and forward the change history, on every platform.
+        // The upstream library tried to tell our own saves' echoes from
+        // real changes, and both of its heuristics drop real changes:
         //
-        //  - `isExternal` keys on the undocumented
+        //  - `isExternal` keyed on the undocumented
         //    `CNNotificationOriginationExternally` userInfo key, which macOS
-        //    never includes — so every external change (an edit in
-        //    Contacts.app, an iCloud sync) was classified as an internal
-        //    echo, dropped, and — because the guard's else-branch advances
-        //    `lastHistoryToken` — permanently skipped: even the next
-        //    launch's replay couldn't see it.
-        //  - `applicationIsActive()` means "app is frontmost" on macOS, not
-        //    "the user is inside our app making changes"; a change
-        //    notification landing after the user switches back to the app
-        //    would be dropped the same way.
+        //    never includes, so every external change on macOS (an edit in
+        //    Contacts.app, an iCloud sync) looked like an internal echo.
+        //  - `applicationIsActive()`: on iOS a change that arrives while the
+        //    app is in front (an edit made on the Mac, synced in over iCloud
+        //    while the user is in the app) was treated as the app's own
+        //    change; on macOS it meant "app is frontmost".
         //
-        // Forwarding unconditionally is safe: `fetchRequest()` already sets
-        // `excludedTransactionAuthors` to our own bundle id, so our own
-        // saves produce no events, and `lastHistoryToken` + the serial
+        // A dropped change was lost for good, not just delayed: the drop
+        // branch also advanced `lastHistoryToken` past it, so even the next
+        // launch's replay could not see it.
+        //
+        // Forwarding unconditionally is safe. `fetchRequest()` sets
+        // `excludedTransactionAuthors`, so saves made under an excluded
+        // author produce no events, and `lastHistoryToken` + the serial
         // forward queue make the notification burst idempotent (only the
-        // first fetch returns events).
+        // first fetch returns events). Queue doesn't save to Contacts in
+        // 2.4.x, so there are no echoes to suppress yet; the 2.5.0 write
+        // layer must give its saves an explicit `transactionAuthor` and
+        // pass it in `excludedTransactionAuthors`.
         forwardQueue.async { [weak self] in
             self?.forwardChangeHistoryEvents()
         }
-        #else
-        // avoid phantom echoes of internal changes by checking application state:
-        //   .background => called from background refresh => external change
-        //   .inactive => called when app opened => external change
-        //   .active => regular app execution => internal change
-        Task { @MainActor in
-            guard isExternal, !applicationIsActive() else {
-                lastHistoryToken = store.currentHistoryToken
-                return
-            }
-
-            forwardQueue.async { [weak self] in
-                self?.forwardChangeHistoryEvents()
-            }
-        }
-        #endif
-    }
-
-    @MainActor
-    private func applicationIsActive() -> Bool {
-        #if os(iOS)
-        return UIApplication.safeShared?.applicationState == .active
-        #elseif os(macOS)
-        return NSApplication.shared.isActive
-        #endif
     }
 
     /// Get contacts change events and post them in a `didChangeNotification`
@@ -255,11 +235,6 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
 
 // Applies to .CNContactStoreDidChange
 private extension Notification {
-    /// (Undocumented) Did the change originate outside the app
-    var isContactsStoreChangeExternal: Bool {
-        nil != userInfo?["CNNotificationOriginationExternally"]
-    }
-
     /// (Undocumented) Empty for external-to-app changes, some `CNDataMapperContactStore` for internal changes.
     var contactsStoreChangeSources: NSArray {
         userInfo?["CNNotificationSourcesKey"] as? NSArray ?? []
@@ -271,20 +246,3 @@ private extension Notification {
             .compactMap { $0 as? String }
     }
 }
-
-#if os(iOS)
-// From https://stackoverflow.com/a/69153780/1176162
-extension UIApplication {
-    static var safeShared: UIApplication? {
-        guard UIApplication.responds(to: Selector(("sharedApplication"))) else {
-            return nil
-        }
-
-        guard let unmanagedSharedApplication = UIApplication.perform(Selector(("sharedApplication"))) else {
-            return nil
-        }
-
-        return unmanagedSharedApplication.takeUnretainedValue() as? UIApplication
-    }
-}
-#endif
