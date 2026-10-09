@@ -1,0 +1,4 @@
+module ContactsChangeNotifier {
+header "ContactsChangeNotifier-Swift.h"
+export *
+}

@@ -1,0 +1,20 @@
+Target dependency graph (6 targets)
+Target 'AllIncludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'ContactsChangeNotifierTests-product' in project 'ContactsChangeNotifier'
+➜ Dependency on target 'ContactsChangeNotifierTests-product' in project 'ContactsChangeNotifier' via transitive dependency through 'ContactsChangeNotifierTests-test-runner'
+➜ Explicit dependency on target 'ContactsChangeNotifier-product' in project 'ContactsChangeNotifier'
+➜ Explicit dependency on target 'ContactsChangeNotifier' in project 'ContactsChangeNotifier'
+➜ Explicit dependency on target 'ContactsChangeNotifier_ContactsChangeNotifier' in project 'ContactsChangeNotifier'
+➜ Explicit dependency on target 'ContactStoreChangeHistory' in project 'ContactsChangeNotifier'
+Target 'ContactsChangeNotifier-product' in project 'ContactsChangeNotifier'
+➜ Explicit dependency on target 'ContactsChangeNotifier' in project 'ContactsChangeNotifier'
+➜ Explicit dependency on target 'ContactStoreChangeHistory' in project 'ContactsChangeNotifier'
+➜ Explicit dependency on target 'ContactsChangeNotifier_ContactsChangeNotifier' in project 'ContactsChangeNotifier'
+Target 'ContactsChangeNotifierTests-product' in project 'ContactsChangeNotifier'
+➜ Explicit dependency on target 'ContactStoreChangeHistory' in project 'ContactsChangeNotifier'
+➜ Explicit dependency on target 'ContactsChangeNotifier' in project 'ContactsChangeNotifier'
+Target 'ContactsChangeNotifier' in project 'ContactsChangeNotifier'
+➜ Explicit dependency on target 'ContactsChangeNotifier_ContactsChangeNotifier' in project 'ContactsChangeNotifier'
+➜ Explicit dependency on target 'ContactStoreChangeHistory' in project 'ContactsChangeNotifier'
+Target 'ContactsChangeNotifier_ContactsChangeNotifier' in project 'ContactsChangeNotifier' (no dependencies)
+Target 'ContactStoreChangeHistory' in project 'ContactsChangeNotifier' (no dependencies)

@@ -6,6 +6,9 @@
 //
 
 @preconcurrency import Contacts
+#if os(macOS)
+import AppKit
+#endif
 
 #if !COCOAPODS
 import ContactStoreChangeHistory
@@ -166,8 +169,70 @@ public final class ContactsChangeNotifier: NSObject, Sendable {
             ) { [weak self] _ in
                 self?.contactsStoreChanged()
             }
+            #if os(macOS)
+            observeMacDatabaseChanges()
+            #endif
         }
     }
+
+    #if os(macOS)
+    /// Posted system-wide (distributed) by the Contacts daemons after every
+    /// save to any AddressBook database: Contacts.app edits, iCloud/CardDAV
+    /// syncs, other apps. Undocumented, so it is a second trigger next to
+    /// `CNContactStoreDidChange`, never the only one.
+    static let addressBookDatabaseChangedNotification = Notification.Name("ABDistributedDatabaseChangedNotification")
+
+    /// On macOS, `CNContactStoreDidChange` alone can't be trusted for external
+    /// changes. In-process, Contacts posts it only as AddressBookCore's
+    /// rebroadcast of `ABDatabaseChangedExternallyNotification`, and on
+    /// macOS 27 a freshly launched process never rebroadcasts: its
+    /// persistence stack starts from cached account information
+    /// ("Store registration failed: com.apple.accounts Code=7") and stays
+    /// silent until an accountsd "accounts changed" event rebuilds it, which
+    /// can be minutes or hours later. Measured 2026-10-09: a debug Queue
+    /// missed three external edits over 15 minutes that the
+    /// already-rebuilt production Queue rebroadcast at once, and a bare CLI
+    /// probe got no `CNContactStoreDidChange` for two edits in 50 s while
+    /// `ABDistributedDatabaseChangedNotification` arrived within 0.4 s of
+    /// each save and a history fetch on it returned the edit.
+    ///
+    /// So also fetch on:
+    ///  - the distributed database-changed notification, with
+    ///    `.deliverImmediately`: AppKit suspends distributed delivery while
+    ///    the app is inactive, and a background Mac app is the normal case
+    ///    for an edit made in Contacts.app;
+    ///  - app activation, in case a future macOS stops posting (or renames)
+    ///    the undocumented notification.
+    ///
+    /// Extra triggers are free: forwarding is serialized and token-based, so
+    /// a fetch with nothing new posts nothing.
+    @MainActor
+    private func observeMacDatabaseChanges() {
+        DistributedNotificationCenter.default().addObserver(
+            self,
+            selector: #selector(macDatabaseMayHaveChanged(_:)),
+            name: Self.addressBookDatabaseChangedNotification,
+            object: nil,
+            suspensionBehavior: .deliverImmediately
+        )
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(macDatabaseMayHaveChanged(_:)),
+            name: NSApplication.didBecomeActiveNotification,
+            object: nil
+        )
+    }
+
+    @objc private func macDatabaseMayHaveChanged(_ notification: Notification) {
+        forwardQueue.async { [weak self] in
+            self?.forwardChangeHistoryEvents()
+        }
+    }
+
+    deinit {
+        DistributedNotificationCenter.default().removeObserver(self)
+    }
+    #endif
 
     @Sendable @objc private func contactsStoreChanged() {
         // Always fetch and forward the change history, on every platform.
