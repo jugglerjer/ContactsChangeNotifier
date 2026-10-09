@@ -1,0 +1,2036 @@
+[
+  {
+    "contents" : {
+      "guid" : "Workspace:/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push",
+      "name" : "ContactsChangeNotifier",
+      "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push",
+      "projects" : [
+        "d24cf508cc200b344df972c9907a7a0bba634beccf342fa8269dcbecd5141c5e",
+        "3e3195561f93237f8e8fe58de65652cb694c231c5d2306f1aaa5b44b15329dc9"
+      ]
+    },
+    "signature" : "ce462b6aa393bf7642986003b9b4ee40ffc1ccf92b78b791238c0a670014bbf2",
+    "type" : "workspace"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "CLANG_ENABLE_MODULES[__platform_filter=driverkit]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios-maccatalyst]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios;ios-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=macos]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=tvos;tvos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=watchos;watchos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=xros;xros-simulator]" : "YES",
+            "CODE_SIGNING_REQUIRED" : "NO",
+            "CODE_SIGN_IDENTITY" : "",
+            "COMPILER_WORKING_DIRECTORY" : "$(WORKSPACE_DIR)",
+            "COPY_PHASE_STRIP" : "NO",
+            "DEBUG_INFORMATION_FORMAT" : "dwarf",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=driverkit]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios-maccatalyst]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios;ios-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=macos]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=tvos;tvos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=watchos;watchos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=xros;xros-simulator]" : "@rpath",
+            "ENABLE_NS_ASSERTIONS" : "YES",
+            "ENABLE_TESTABILITY" : "YES",
+            "ENABLE_TESTING_SEARCH_PATHS" : "YES",
+            "ENTITLEMENTS_REQUIRED" : "NO",
+            "GCC_OPTIMIZATION_LEVEL" : "0",
+            "GCC_PREPROCESSOR_DEFINITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE",
+              "DEBUG=1"
+            ],
+            "INDEX_ENABLE_DATA_STORE" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "KEEP_PRIVATE_EXTERNS" : "NO",
+            "LIBTOOL_NO_WARNING_FOR_NO_SYMBOLS" : "YES",
+            "LINKER_DRIVER" : "auto",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "ONLY_ACTIVE_ARCH" : "YES",
+            "OTHER_CFLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "OTHER_LDRFLAGS" : [
+
+            ],
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SKIP_INSTALL" : "YES",
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=ios;ios-simulator]" : [
+
+            ],
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=macos]" : [
+
+            ],
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ],
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE",
+              "DEBUG"
+            ],
+            "SWIFT_INSTALL_OBJC_HEADER" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "",
+            "SWIFT_OPTIMIZATION_LEVEL" : "-Onone",
+            "TARGETED_DEVICE_FAMILY" : "",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "USE_HEADERMAP" : "NO",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE:ccn-push::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "CLANG_ENABLE_MODULES[__platform_filter=driverkit]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios-maccatalyst]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios;ios-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=macos]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=tvos;tvos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=watchos;watchos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=xros;xros-simulator]" : "YES",
+            "CODE_SIGNING_REQUIRED" : "NO",
+            "CODE_SIGN_IDENTITY" : "",
+            "COMPILER_WORKING_DIRECTORY" : "$(WORKSPACE_DIR)",
+            "COPY_PHASE_STRIP" : "YES",
+            "DEBUG_INFORMATION_FORMAT" : "dwarf-with-dsym",
+            "DEPLOYMENT_POSTPROCESSING" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=driverkit]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios-maccatalyst]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios;ios-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=macos]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=tvos;tvos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=watchos;watchos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=xros;xros-simulator]" : "@rpath",
+            "ENABLE_TESTING_SEARCH_PATHS" : "YES",
+            "ENTITLEMENTS_REQUIRED" : "NO",
+            "GCC_OPTIMIZATION_LEVEL" : "s",
+            "GCC_PREPROCESSOR_DEFINITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE"
+            ],
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "KEEP_PRIVATE_EXTERNS" : "NO",
+            "LIBTOOL_NO_WARNING_FOR_NO_SYMBOLS" : "YES",
+            "LINKER_DRIVER" : "auto",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "OTHER_CFLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "OTHER_LDRFLAGS" : [
+
+            ],
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SKIP_INSTALL" : "YES",
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=ios;ios-simulator]" : [
+
+            ],
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=macos]" : [
+
+            ],
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ],
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE"
+            ],
+            "SWIFT_INSTALL_OBJC_HEADER" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "",
+            "SWIFT_OPTIMIZATION_LEVEL" : "-Owholemodule",
+            "TARGETED_DEVICE_FAMILY" : "",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "USE_HEADERMAP" : "NO",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE:ccn-push::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "defaultConfigurationName" : "Release",
+      "groupTree" : {
+        "children" : [
+          {
+            "children" : [
+
+            ],
+            "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_0",
+            "name" : "AdditionalFiles",
+            "path" : "/",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+
+            ],
+            "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_1",
+            "name" : "Binaries",
+            "path" : "/",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_2::REF_0",
+                "name" : "ChangeHistoryForwardStepTests.swift",
+                "path" : "ChangeHistoryForwardStepTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_2",
+            "name" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Tests/ContactsChangeNotifierTests",
+            "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Tests/ContactsChangeNotifierTests",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "fileType" : "file",
+            "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_3",
+            "name" : "$(CONFIGURATION_BUILD_DIR)/ContactsChangeNotifier_ContactsChangeNotifier.bundle",
+            "path" : "$(CONFIGURATION_BUILD_DIR)/ContactsChangeNotifier_ContactsChangeNotifier.bundle",
+            "sourceTree" : "<group>",
+            "type" : "file"
+          },
+          {
+            "fileType" : "file",
+            "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_4",
+            "name" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactsChangeNotifier/PrivacyInfo.xcprivacy",
+            "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactsChangeNotifier/PrivacyInfo.xcprivacy",
+            "sourceTree" : "<absolute>",
+            "type" : "file"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_5::REF_0",
+                "name" : "ContactsChangeNotifier.swift",
+                "path" : "ContactsChangeNotifier.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_5::REF_1",
+                "name" : "HistoryTokenStorage/CloudKitHistoryTokenStorage.swift",
+                "path" : "HistoryTokenStorage/CloudKitHistoryTokenStorage.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_5::REF_2",
+                "name" : "HistoryTokenStorage/HistoryTokenStorage.swift",
+                "path" : "HistoryTokenStorage/HistoryTokenStorage.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_5::REF_3",
+                "name" : "HistoryTokenStorage/UserDefaultsHistoryTokenStorage.swift",
+                "path" : "HistoryTokenStorage/UserDefaultsHistoryTokenStorage.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_5",
+            "name" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactsChangeNotifier",
+            "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactsChangeNotifier",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_6::REF_0",
+                "name" : "ContactsChangeNotifier.swift",
+                "path" : "ContactsChangeNotifier.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_6::REF_1",
+                "name" : "HistoryTokenStorage/CloudKitHistoryTokenStorage.swift",
+                "path" : "HistoryTokenStorage/CloudKitHistoryTokenStorage.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_6::REF_2",
+                "name" : "HistoryTokenStorage/HistoryTokenStorage.swift",
+                "path" : "HistoryTokenStorage/HistoryTokenStorage.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_6::REF_3",
+                "name" : "HistoryTokenStorage/UserDefaultsHistoryTokenStorage.swift",
+                "path" : "HistoryTokenStorage/UserDefaultsHistoryTokenStorage.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_6",
+            "name" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactsChangeNotifier",
+            "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactsChangeNotifier",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.c.objc",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_7::REF_0",
+                "name" : "CNContactStore+ChangeHistory.m",
+                "path" : "CNContactStore+ChangeHistory.m",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "file",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_7::REF_1",
+                "name" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/CNContactStore+ChangeHistory.h",
+                "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/CNContactStore+ChangeHistory.h",
+                "sourceTree" : "<absolute>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "file",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_7::REF_2",
+                "name" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include/ContactStoreChangeHistory.h",
+                "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include/ContactStoreChangeHistory.h",
+                "sourceTree" : "<absolute>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_7",
+            "name" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory",
+            "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.c.objc",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_8::REF_0",
+                "name" : "CNContactStore+ChangeHistory.m",
+                "path" : "CNContactStore+ChangeHistory.m",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "file",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_8::REF_1",
+                "name" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/CNContactStore+ChangeHistory.h",
+                "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/CNContactStore+ChangeHistory.h",
+                "sourceTree" : "<absolute>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "file",
+                "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_8::REF_2",
+                "name" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include/ContactStoreChangeHistory.h",
+                "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include/ContactStoreChangeHistory.h",
+                "sourceTree" : "<absolute>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:ccn-push::MAINGROUP::REF_8",
+            "name" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory",
+            "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          }
+        ],
+        "guid" : "PACKAGE:ccn-push::MAINGROUP",
+        "name" : "",
+        "path" : "",
+        "sourceTree" : "<group>",
+        "type" : "group"
+      },
+      "guid" : "PACKAGE:ccn-push",
+      "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Package.swift",
+      "projectDirectory" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push",
+      "projectIsPackage" : "true",
+      "projectName" : "ContactsChangeNotifier",
+      "targets" : [
+        "7f851f435ee3f654f4e8b34199ca9caf61d0bd35b8f51396a6a881969b15d729",
+        "de8b3953e0303be3633d57b5179224f06b8bfa224f55d5498029e9f07f36a285",
+        "ec2f769fd31ed6ce7f74256d68ba825c971c9d57cad288a6d3a1b65068d93752",
+        "e86c594126ee988186b3db106d4112b60a6bddeec32df7c01cd778b7fe4ff028",
+        "abc6e25ae60b532b5ae015f15c4cd6a4a378211c7e1eb192dce852ce5e69d0aa",
+        "2b652072e837711967ffc3f3b4ef2e95115c29395840558cec97b3ecc8a8d25a",
+        "128417bc2af4249d4bb6270e2273a74c5db3373719067cd3f2699596e6634739",
+        "63ffa04b3e762d53ca397855bffee15270e6d0159e8a2246da10024249ddc9d6",
+        "371a2c28291012564e2cca9b32d6a530db4c6b58a0baee76b44d4c8510a6949a"
+      ]
+    },
+    "signature" : "d24cf508cc200b344df972c9907a7a0bba634beccf342fa8269dcbecd5141c5e",
+    "type" : "project"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "APPLE_TEST_BUNDLE_RPATH" : "$(APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_$(SHALLOW_BUNDLE:default=NO))",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_NO" : "@loader_path/../../..",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_YES" : "@loader_path/../..",
+            "BUILD_SERVER_PROTOCOL_TARGET_TAGS" : [
+              "$(inherited)",
+              "test"
+            ],
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
+            "GENERATE_INFOPLIST_FILE" : "YES",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "INDEX_ENABLE_DATA_STORE" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(RPATH_ORIGIN)/Frameworks",
+              "$(RPATH_ORIGIN)/../Frameworks",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=driverkit]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios-maccatalyst]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios;ios-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=macos]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=tvos;tvos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=watchos;watchos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=xros;xros-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactsChangeNotifierTests",
+            "PRODUCT_MODULE_NAME" : "ContactsChangeNotifierTests",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_PACKAGE_NAME" : "ccn_push",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifierTests.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifierTests.symbolgraphs",
+            "TARGET_NAME" : "ContactsChangeNotifierTests",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "APPLE_TEST_BUNDLE_RPATH" : "$(APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_$(SHALLOW_BUNDLE:default=NO))",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_NO" : "@loader_path/../../..",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_YES" : "@loader_path/../..",
+            "BUILD_SERVER_PROTOCOL_TARGET_TAGS" : [
+              "$(inherited)",
+              "test"
+            ],
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
+            "GENERATE_INFOPLIST_FILE" : "YES",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "INDEX_ENABLE_DATA_STORE" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(RPATH_ORIGIN)/Frameworks",
+              "$(RPATH_ORIGIN)/../Frameworks",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=driverkit]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios-maccatalyst]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios;ios-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=macos]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=tvos;tvos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=watchos;watchos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=xros;xros-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactsChangeNotifierTests",
+            "PRODUCT_MODULE_NAME" : "ContactsChangeNotifierTests",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_PACKAGE_NAME" : "ccn_push",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifierTests.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifierTests.symbolgraphs",
+            "TARGET_NAME" : "ContactsChangeNotifierTests",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_2::REF_0",
+              "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:ContactStoreChangeHistory"
+            },
+            {
+              "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests::BUILDPHASE_1::1",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:ContactsChangeNotifier"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.frameworks"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifier",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests",
+      "name" : "ContactsChangeNotifierTests-product",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.bundle.unit-test",
+      "type" : "standard"
+    },
+    "signature" : "7f851f435ee3f654f4e8b34199ca9caf61d0bd35b8f51396a6a881969b15d729",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(inherited)",
+              "$(RPATH_ORIGIN)"
+            ],
+            "LINKER_DRIVER" : "swiftc",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactsChangeNotifierTests-test-runner",
+            "PRODUCT_MODULE_NAME" : "ContactsChangeNotifierTests_test_runner",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_VERSION" : "5.0",
+            "TARGET_NAME" : "ContactsChangeNotifierTests-test-runner",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifierTests_test_runner::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(inherited)",
+              "$(RPATH_ORIGIN)"
+            ],
+            "LINKER_DRIVER" : "swiftc",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactsChangeNotifierTests-test-runner",
+            "PRODUCT_MODULE_NAME" : "ContactsChangeNotifierTests_test_runner",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_VERSION" : "5.0",
+            "TARGET_NAME" : "ContactsChangeNotifierTests-test-runner",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifierTests_test_runner::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+
+          ],
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifierTests_test_runner::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-TARGET:ContactsChangeNotifierTests_test_runner::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifierTests_test_runner::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.frameworks"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-TARGET:ContactsChangeNotifierTests_test_runner",
+      "name" : "ContactsChangeNotifierTests-test-runner",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:ContactsChangeNotifierTests_test_runner",
+        "name" : "ContactsChangeNotifierTests-test-runner",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.tool.swiftpm-test-runner",
+      "type" : "standard"
+    },
+    "signature" : "de8b3953e0303be3633d57b5179224f06b8bfa224f55d5498029e9f07f36a285",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "PRODUCT_NAME" : "ContactsChangeNotifier",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "TARGET_NAME" : "ContactsChangeNotifier-product",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "USES_SWIFTPM_UNSAFE_FLAGS" : "NO"
+          },
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifier.ContactsChangeNotifier::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "PRODUCT_NAME" : "ContactsChangeNotifier",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "TARGET_NAME" : "ContactsChangeNotifier-product",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "USES_SWIFTPM_UNSAFE_FLAGS" : "NO"
+          },
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifier.ContactsChangeNotifier::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifier.ContactsChangeNotifier::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:ContactsChangeNotifier"
+            },
+            {
+              "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifier.ContactsChangeNotifier::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:ContactStoreChangeHistory"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifier.ContactsChangeNotifier::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.frameworks"
+        },
+        {
+          "buildFiles" : [
+
+          ],
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifier.ContactsChangeNotifier::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.sources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifier",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-RESOURCE:ContactsChangeNotifier",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifier.ContactsChangeNotifier",
+      "name" : "ContactsChangeNotifier-product",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifier.ContactsChangeNotifier",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.library.static",
+      "type" : "standard"
+    },
+    "signature" : "ec2f769fd31ed6ce7f74256d68ba825c971c9d57cad288a6d3a1b65068d93752",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "COREML_CODEGEN_LANGUAGE" : "Swift",
+            "COREML_COMPILER_CONTAINER" : "swift-package",
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "MODULEMAP_FILE_CONTENTS" : "module ContactsChangeNotifier {\nheader \"ContactsChangeNotifier-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ContactsChangeNotifier.modulemap",
+            "PACKAGE_RESOURCE_BUNDLE_NAME" : "ContactsChangeNotifier_ContactsChangeNotifier",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactsChangeNotifier",
+            "PRODUCT_MODULE_NAME" : "ContactsChangeNotifier",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "ContactsChangeNotifier-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "ccn_push",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifier.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "ContactsChangeNotifier",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifier.symbolgraphs",
+            "TARGET_NAME" : "ContactsChangeNotifier",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifier::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "EMBED_PACKAGE_RESOURCE_BUNDLE_NAMES" : [
+                "$(inherited)",
+                "ContactsChangeNotifier_ContactsChangeNotifier"
+              ],
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactsChangeNotifier.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "COREML_CODEGEN_LANGUAGE" : "Swift",
+            "COREML_COMPILER_CONTAINER" : "swift-package",
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "MODULEMAP_FILE_CONTENTS" : "module ContactsChangeNotifier {\nheader \"ContactsChangeNotifier-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ContactsChangeNotifier.modulemap",
+            "PACKAGE_RESOURCE_BUNDLE_NAME" : "ContactsChangeNotifier_ContactsChangeNotifier",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactsChangeNotifier",
+            "PRODUCT_MODULE_NAME" : "ContactsChangeNotifier",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "ContactsChangeNotifier-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "ccn_push",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifier.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "ContactsChangeNotifier",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifier.symbolgraphs",
+            "TARGET_NAME" : "ContactsChangeNotifier",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifier::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "EMBED_PACKAGE_RESOURCE_BUNDLE_NAMES" : [
+                "$(inherited)",
+                "ContactsChangeNotifier_ContactsChangeNotifier"
+              ],
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactsChangeNotifier.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_5::REF_0",
+              "guid" : "PACKAGE-TARGET:ContactsChangeNotifier::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_5::REF_1",
+              "guid" : "PACKAGE-TARGET:ContactsChangeNotifier::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_5::REF_2",
+              "guid" : "PACKAGE-TARGET:ContactsChangeNotifier::BUILDPHASE_0::2",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_5::REF_3",
+              "guid" : "PACKAGE-TARGET:ContactsChangeNotifier::BUILDPHASE_0::3",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifier::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-RESOURCE:ContactsChangeNotifier",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "dynamicTargetVariantGuid" : "PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic",
+      "guid" : "PACKAGE-TARGET:ContactsChangeNotifier",
+      "name" : "ContactsChangeNotifier",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:ContactsChangeNotifier",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "org.swift.product-type.library.static",
+      "type" : "standard"
+    },
+    "signature" : "e86c594126ee988186b3db106d4112b60a6bddeec32df7c01cd778b7fe4ff028",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "COREML_CODEGEN_LANGUAGE" : "None",
+            "COREML_COMPILER_CONTAINER" : "swift-package",
+            "EXECUTABLE_NAME" : "",
+            "GENERATE_INFOPLIST_FILE" : "YES",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "resource",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactsChangeNotifier.resources",
+            "PRODUCT_MODULE_NAME" : "ContactsChangeNotifier_ContactsChangeNotifier",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "TARGET_NAME" : "ContactsChangeNotifier_ContactsChangeNotifier",
+            "TARGET_TEMP_DIR_SUFFIX" : "-b"
+          },
+          "guid" : "PACKAGE-RESOURCE:ContactsChangeNotifier::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "COREML_CODEGEN_LANGUAGE" : "None",
+            "COREML_COMPILER_CONTAINER" : "swift-package",
+            "EXECUTABLE_NAME" : "",
+            "GENERATE_INFOPLIST_FILE" : "YES",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "resource",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactsChangeNotifier.resources",
+            "PRODUCT_MODULE_NAME" : "ContactsChangeNotifier_ContactsChangeNotifier",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "TARGET_NAME" : "ContactsChangeNotifier_ContactsChangeNotifier",
+            "TARGET_TEMP_DIR_SUFFIX" : "-b"
+          },
+          "guid" : "PACKAGE-RESOURCE:ContactsChangeNotifier::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_4",
+              "guid" : "PACKAGE-RESOURCE:ContactsChangeNotifier::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false",
+              "resourceRule" : "process"
+            }
+          ],
+          "guid" : "PACKAGE-RESOURCE:ContactsChangeNotifier::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.resources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+
+      ],
+      "guid" : "PACKAGE-RESOURCE:ContactsChangeNotifier",
+      "name" : "ContactsChangeNotifier_ContactsChangeNotifier",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-RESOURCE:ContactsChangeNotifier",
+        "name" : "ContactsChangeNotifier_ContactsChangeNotifier",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.bundle",
+      "type" : "standard"
+    },
+    "signature" : "abc6e25ae60b532b5ae015f15c4cd6a4a378211c7e1eb192dce852ce5e69d0aa",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "HEADER_SEARCH_PATHS" : [
+              "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include",
+              "$(inherited)"
+            ],
+            "MODULEMAP_FILE_CONTENTS" : "module ContactStoreChangeHistory {\numbrella header \"/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include/ContactStoreChangeHistory.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactStoreChangeHistory",
+            "PRODUCT_MODULE_NAME" : "ContactStoreChangeHistory",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactStoreChangeHistory.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "ContactStoreChangeHistory",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactStoreChangeHistory.symbolgraphs",
+            "TARGET_NAME" : "ContactStoreChangeHistory",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "HEADER_SEARCH_PATHS" : [
+                "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+                "$(inherited)"
+              ],
+              "OTHER_SWIFT_FLAGS" : [
+                "-Xcc",
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "HEADER_SEARCH_PATHS" : [
+              "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include",
+              "$(inherited)"
+            ],
+            "MODULEMAP_FILE_CONTENTS" : "module ContactStoreChangeHistory {\numbrella header \"/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include/ContactStoreChangeHistory.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactStoreChangeHistory",
+            "PRODUCT_MODULE_NAME" : "ContactStoreChangeHistory",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactStoreChangeHistory.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "ContactStoreChangeHistory",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactStoreChangeHistory.symbolgraphs",
+            "TARGET_NAME" : "ContactStoreChangeHistory",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "HEADER_SEARCH_PATHS" : [
+                "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+                "$(inherited)"
+              ],
+              "OTHER_SWIFT_FLAGS" : [
+                "-Xcc",
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_7::REF_0",
+              "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_7::REF_1",
+              "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_7::REF_2",
+              "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory::BUILDPHASE_1::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.headers"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+
+      ],
+      "dynamicTargetVariantGuid" : "PACKAGE-TARGET:ContactStoreChangeHistory-2BACD9F2ED5ADE2A-dynamic",
+      "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory",
+      "name" : "ContactStoreChangeHistory",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:ContactStoreChangeHistory",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "org.swift.product-type.library.static",
+      "type" : "standard"
+    },
+    "signature" : "128417bc2af4249d4bb6270e2273a74c5db3373719067cd3f2699596e6634739",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "PACKAGE-PRODUCT:ccn-push-ContactsChangeNotifierPackageTests.ContactsChangeNotifierPackageTests::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "PACKAGE-PRODUCT:ccn-push-ContactsChangeNotifierPackageTests.ContactsChangeNotifierPackageTests::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifierTests_test_runner",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:ccn-push-ContactsChangeNotifierPackageTests.ContactsChangeNotifierPackageTests",
+      "name" : "ContactsChangeNotifierPackageTests-product",
+      "type" : "aggregate"
+    },
+    "signature" : "371a2c28291012564e2cca9b32d6a530db4c6b58a0baee76b44d4c8510a6949a",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "COREML_CODEGEN_LANGUAGE" : "Swift",
+            "COREML_COMPILER_CONTAINER" : "swift-package",
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "YES",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "MODULEMAP_FILE_CONTENTS" : "module ContactsChangeNotifier {\nheader \"ContactsChangeNotifier-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ContactsChangeNotifier.modulemap",
+            "PACKAGE_RESOURCE_BUNDLE_NAME" : "ContactsChangeNotifier_ContactsChangeNotifier",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactsChangeNotifier",
+            "PRODUCT_MODULE_NAME" : "ContactsChangeNotifier",
+            "PRODUCT_NAME" : "ContactsChangeNotifier",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "ContactsChangeNotifier-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "ccn_push",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifier.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifier.symbolgraphs",
+            "TARGET_NAME" : "ContactsChangeNotifier",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "EMBED_PACKAGE_RESOURCE_BUNDLE_NAMES" : [
+                "$(inherited)",
+                "ContactsChangeNotifier_ContactsChangeNotifier"
+              ],
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactsChangeNotifier.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "COREML_CODEGEN_LANGUAGE" : "Swift",
+            "COREML_COMPILER_CONTAINER" : "swift-package",
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "YES",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "MODULEMAP_FILE_CONTENTS" : "module ContactsChangeNotifier {\nheader \"ContactsChangeNotifier-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ContactsChangeNotifier.modulemap",
+            "PACKAGE_RESOURCE_BUNDLE_NAME" : "ContactsChangeNotifier_ContactsChangeNotifier",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactsChangeNotifier",
+            "PRODUCT_MODULE_NAME" : "ContactsChangeNotifier",
+            "PRODUCT_NAME" : "ContactsChangeNotifier",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "ContactsChangeNotifier-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "ccn_push",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifier.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactsChangeNotifier.symbolgraphs",
+            "TARGET_NAME" : "ContactsChangeNotifier",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "EMBED_PACKAGE_RESOURCE_BUNDLE_NAMES" : [
+                "$(inherited)",
+                "ContactsChangeNotifier_ContactsChangeNotifier"
+              ],
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactsChangeNotifier.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_6::REF_0",
+              "guid" : "PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_6::REF_1",
+              "guid" : "PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_6::REF_2",
+              "guid" : "PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic::BUILDPHASE_0::2",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_6::REF_3",
+              "guid" : "PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic::BUILDPHASE_0::3",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:ContactStoreChangeHistory"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.frameworks"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-RESOURCE:ContactsChangeNotifier",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic",
+      "name" : "ContactsChangeNotifier",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:ContactsChangeNotifier-14E768CDFEF0B2DB-dynamic",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.library.dynamic",
+      "type" : "standard"
+    },
+    "signature" : "2b652072e837711967ffc3f3b4ef2e95115c29395840558cec97b3ecc8a8d25a",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "HEADER_SEARCH_PATHS" : [
+              "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include",
+              "$(inherited)"
+            ],
+            "MODULEMAP_FILE_CONTENTS" : "module ContactStoreChangeHistory {\numbrella header \"/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include/ContactStoreChangeHistory.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactStoreChangeHistory",
+            "PRODUCT_MODULE_NAME" : "ContactStoreChangeHistory",
+            "PRODUCT_NAME" : "ContactStoreChangeHistory",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactStoreChangeHistory.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactStoreChangeHistory.symbolgraphs",
+            "TARGET_NAME" : "ContactStoreChangeHistory",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory-2BACD9F2ED5ADE2A-dynamic::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "HEADER_SEARCH_PATHS" : [
+                "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+                "$(inherited)"
+              ],
+              "OTHER_SWIFT_FLAGS" : [
+                "-Xcc",
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "HEADER_SEARCH_PATHS" : [
+              "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include",
+              "$(inherited)"
+            ],
+            "MODULEMAP_FILE_CONTENTS" : "module ContactStoreChangeHistory {\numbrella header \"/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include/ContactStoreChangeHistory.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "ccn-push.ContactStoreChangeHistory",
+            "PRODUCT_MODULE_NAME" : "ContactStoreChangeHistory",
+            "PRODUCT_NAME" : "ContactStoreChangeHistory",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactStoreChangeHistory.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ContactStoreChangeHistory.symbolgraphs",
+            "TARGET_NAME" : "ContactStoreChangeHistory",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory-2BACD9F2ED5ADE2A-dynamic::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "HEADER_SEARCH_PATHS" : [
+                "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Sources/ContactStoreChangeHistory/include",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+                "$(inherited)"
+              ],
+              "OTHER_SWIFT_FLAGS" : [
+                "-Xcc",
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ContactStoreChangeHistory.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_8::REF_0",
+              "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory-2BACD9F2ED5ADE2A-dynamic::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory-2BACD9F2ED5ADE2A-dynamic::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_8::REF_1",
+              "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory-2BACD9F2ED5ADE2A-dynamic::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:ccn-push::MAINGROUP::REF_8::REF_2",
+              "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory-2BACD9F2ED5ADE2A-dynamic::BUILDPHASE_1::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory-2BACD9F2ED5ADE2A-dynamic::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.headers"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+
+      ],
+      "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory-2BACD9F2ED5ADE2A-dynamic",
+      "name" : "ContactStoreChangeHistory",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:ContactStoreChangeHistory-2BACD9F2ED5ADE2A-dynamic",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.library.dynamic",
+      "type" : "standard"
+    },
+    "signature" : "63ffa04b3e762d53ca397855bffee15270e6d0159e8a2246da10024249ddc9d6",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "YES",
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ]
+          },
+          "guid" : "AGGREGATE::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "YES",
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ]
+          },
+          "guid" : "AGGREGATE::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "defaultConfigurationName" : "Release",
+      "developmentRegion" : "en",
+      "groupTree" : {
+        "children" : [
+
+        ],
+        "guid" : "AGGREGATE::MAINGROUP",
+        "name" : "",
+        "path" : "",
+        "sourceTree" : "<group>",
+        "type" : "group"
+      },
+      "guid" : "AGGREGATE",
+      "path" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push/Package.swift",
+      "projectDirectory" : "/private/tmp/claude-501/-Users-jeremylubin-Developer-Lubin-Labs-Queue/f1c917b2-95b6-46c6-b1c8-40f667b29ed0/scratchpad/ccn-push",
+      "projectIsPackage" : "true",
+      "projectName" : "Aggregate",
+      "targets" : [
+        "297b938a54d4c1900ea4a1886695bcdf3e3ca644d3f61f253510b5465c4173ad",
+        "96be038a81e4cf3ef83f974f9f158f5eb4c62b3739c9eb17af7d7a3b7d8f3076"
+      ]
+    },
+    "signature" : "3e3195561f93237f8e8fe58de65652cb694c231c5d2306f1aaa5b44b15329dc9",
+    "type" : "project"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-INCLUDING-TESTS::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-INCLUDING-TESTS::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifierTests.ContactsChangeNotifierTests",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifierTests_test_runner",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifier.ContactsChangeNotifier",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifier",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-RESOURCE:ContactsChangeNotifier",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "ALL-INCLUDING-TESTS",
+      "name" : "AllIncludingTests",
+      "type" : "aggregate"
+    },
+    "signature" : "297b938a54d4c1900ea4a1886695bcdf3e3ca644d3f61f253510b5465c4173ad",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-EXCLUDING-TESTS::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-EXCLUDING-TESTS::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:ccn-push_ContactsChangeNotifier.ContactsChangeNotifier",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:ContactsChangeNotifier",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-RESOURCE:ContactsChangeNotifier",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:ContactStoreChangeHistory",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "ALL-EXCLUDING-TESTS",
+      "name" : "AllExcludingTests",
+      "type" : "aggregate"
+    },
+    "signature" : "96be038a81e4cf3ef83f974f9f158f5eb4c62b3739c9eb17af7d7a3b7d8f3076",
+    "type" : "target"
+  }
+]

@@ -1,0 +1,650 @@
+[
+  {
+    "isFramework" : true,
+    "moduleName" : "Accessibility",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Accessibility.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "AppKit",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/AppKit.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "ColorSync",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/ColorSync.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Combine",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Combine.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Contacts",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Contacts.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreData",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/CoreData.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "CoreFoundation",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/CoreFoundation.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreGraphics",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/CoreGraphics.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "CoreImage",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/CoreImage.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreText",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/CoreText.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreTransferable",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/CoreTransferable.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreVideo",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/CoreVideo.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Darwin",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Darwin.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "DataDetection",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/DataDetection.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "DeveloperToolsSupport",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/DeveloperToolsSupport.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Dispatch",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Dispatch.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Foundation",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Foundation.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "IOKit",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/IOKit.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "ImageIO",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/ImageIO.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Metal",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Metal.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "OSLog",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/OSLog.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "ObjectiveC",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/ObjectiveC.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Observation",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Observation.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "QuartzCore",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/QuartzCore.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Spatial",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Spatial.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Swift",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Swift.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "SwiftOnoneSupport",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/SwiftOnoneSupport.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "SwiftUICore",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/SwiftUICore.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Symbols",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Symbols.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "System",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/System.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "UniformTypeIdentifiers",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/UniformTypeIdentifiers.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "XPC",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/XPC.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Builtin_float",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_Builtin_float.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Concurrency",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_Concurrency.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation1",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_DarwinFoundation1.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation2",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_DarwinFoundation2.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation3",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_DarwinFoundation3.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_StringProcessing",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_StringProcessing.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "os",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/os.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "simd",
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/simd.swiftmodule\/arm64e-apple-macos.swiftmodule"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Accessibility.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/Accessibility-BT4WM4JWZCI38XT01JAF3BHLR.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Accessibility"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/AppKit.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/AppKit-5D71EQUSQXDLLNQX8Q82DGP7X.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "AppKit"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/ApplicationServices.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/ApplicationServices-98C6JC6Z7A3H7EJYZFX1O4A19.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ApplicationServices"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CFNetwork.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/CFNetwork-DIYGF8IX9TDZEKXPU3C8T7YXO.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CFNetwork"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/cups.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/CUPS-E149ZX8KNRN55NL3UAZTD7YEP.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CUPS"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/ColorSync.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/ColorSync-B1S50SWIE8PDMJG4XBU7H4TPK.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ColorSync"
+  },
+  {
+    "clangModuleMapPath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/Intermediates.noindex\/GeneratedModuleMaps\/ContactStoreChangeHistory.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/Intermediates.noindex\/SwiftExplicitPrecompiledModules\/ContactStoreChangeHistory-6I5JL5U8EO4M0MVXES6ZFNHYL.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ContactStoreChangeHistory"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Contacts.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/Contacts-14DDOSCTMU0VJ6LD35R3QQ2VB.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Contacts"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreData.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/CoreData-DJVGG908285ZH3CY7844WU42.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreData"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreFoundation.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/CoreFoundation-23Z4FKGXCAZK1J8E7U9FJUVS.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreFoundation"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreGraphics.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/CoreGraphics-AJCG6ALQBOE1W2YWAAGFYQO54.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreGraphics"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreImage.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/CoreImage-BQVOSLVUZ004TX8N3UN1QJWIO.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreImage"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreServices.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/CoreServices-513FBERLD2QX5O46NSHM8WHDX.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreServices"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreText.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/CoreText-78MSVHDH81JJZ167S5XFQH2SS.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreText"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreTransferable.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/CoreTransferable-API5CYFCP797D8LIEH1KTZBYT.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreTransferable"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreVideo.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/CoreVideo-8GI1P22BFOJ7TI141OR7UHESK.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreVideo"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/Darwin.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-CI31YRYAFLYCZA8CPTRTE93A4.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Darwin"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/DataDetection.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/DataDetection-31439AZV7011MBUGCHF6TCAP1.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "DataDetection"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/DeveloperToolsSupport.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/DeveloperToolsSupport-92UZ6HMY6XM1U3S7UCETD9GFZ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "DeveloperToolsSupport"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/DiskArbitration.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/DiskArbitration-5FPA7DX43V9TYZIXSD475X31Y.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "DiskArbitration"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/dispatch.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/Dispatch-F4ZDWREFN0GMQYNIUH9NTSX46.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Dispatch"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Foundation.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/Foundation-D1EAWCHF8T8J6Z8LMF7XV5MEZ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Foundation"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/IOKit.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/IOKit-73SL4P78MGO0MF2EGXM34OH9E.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "IOKit"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/IOSurface.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/IOSurface-7NS9OZZTLY0W7EYYB31ZOS5MR.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "IOSurface"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/ImageIO.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/ImageIO-8FEXE5VPLIC7W1OPZDG0EA7GH.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ImageIO"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinBasic.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/MachO-BGQYEWL49C1U1XMZGCI6O9JVR.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "MachO"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Metal.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/Metal-9ZRDN9FY48H1XFP6HP4I0KELH.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Metal"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/OSLog.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/OSLog-BL5CP9DTDQZTTLJAR8TC3BXR6.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "OSLog"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/ObjectiveC.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-DOW0IM3OT22EVA7ZZ124VOAY5.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ObjectiveC"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/OpenGL.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/OpenGL-AL7209V7MAGW09I1P1JCBVGV1.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "OpenGL"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/QuartzCore.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/QuartzCore-3CZ9EQRU1KUPPLDK8OA3602Q2.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "QuartzCore"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Security.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/Security-4GX8051DZRFXDKJ8IASL73WFK.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Security"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/Spatial\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/Spatial-DWS687LCLV30A81V8KA8COONT.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Spatial"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftShims-CYHZWWFYTRWNFTPNNOCILFLW0.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "SwiftShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/SwiftUICore.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftUICore-2HD0WPUMHEUDPL7HV0BTEZKBK.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "SwiftUICore"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Symbols.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/Symbols-4MZDTFZY3NOMEUFUX3XSRDMKX.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Symbols"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/UniformTypeIdentifiers.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/UniformTypeIdentifiers-2A4Y0IHHH1A7JEYGLTD72T1HX.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "UniformTypeIdentifiers"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/xpc.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/XPC-48ZVZ1EPKRZF6C6RN3BW7SRV2.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "XPC"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation1.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_AvailabilityInternal-B4RXXI5LSJHLZIP73YT9TU1KT.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_AvailabilityInternal"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-CAYIALHGOSXLYXVPR8ODK3D9B.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_float"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_intrinsics-9JOEVZ1H8NCU5XF9Y52Z3AF4S.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_intrinsics"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_inttypes-3433B00M6XC6CKZ0GOOHJVHJQ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_inttypes"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_limits-1S9QTL10Y07X7H8WYYP89JT22.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_limits"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdarg-AJ9JQ9XWKEHV8FNTM3MDD03PF.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdarg"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdatomic-9YVO9OIYOUQJ1MD36ACZM4I73.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdatomic"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdbool-4K9VRB5LRMYUBP1KST8JG9XPA.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdbool"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stddef-2DH37LLOUJ3TOJ72W6FHJO7H7.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stddef"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdint-9D4N4OOQBGDFXR5U0OZJ6MZQG.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdint"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_tgmath-AUHP473KYRCUUQSLHLEUZSZLP.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_tgmath"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation1.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-27GFTVOO1NY0SBACDHQ8ZFK2Y.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation1"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation2.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-10N9OOX8FNUQRNJ5K9DMHQII.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation2"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation3.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-E645Y6XDNQBNRFQ9MOU60VCDQ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation3"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-AS6ATKGJBMN9M8G9YCS6MZ8XQ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_SwiftConcurrencyShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/launch.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/launch-41AU81HGB3SI1LSU2SOD277LG.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "launch"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/libDER\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/libDER-3YTHURDN957JS4JGUWJLZ00B.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "libDER"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/libkern.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/libkern-1S13Y7RIBHU13SMKX43NHOA80.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "libkern"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/os.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/os-C3QHYJP2FRC449TBWBBAO91N2.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "os"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/os.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/os_object-E1FPMUAOZXOMKQ8CZ0GEQ8MN8.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "os_object"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/os.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/os_workgroup-8UONCIQW34V6VLQL5XVCH8UUG.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "os_workgroup"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/ptrauth-8KQYHCFPPQM7Q4VPH46LJLC3O.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ptrauth"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/ptrcheck-L3P04Y82XUSGAHVC0QIR1JOQ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ptrcheck"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/simd\/module.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/simd-EYLMEV8CCXNUHCDRS152ADKLT.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "simd"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/c_standard_library.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/string_h-B9AD7CAA5L8TQ6JFR677X771U.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "string_h"
+  },
+  {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation2.modulemap",
+    "clangModulePath" : "\/private\/tmp\/claude-501\/-Users-jeremylubin-Developer-Lubin-Labs-Queue\/f1c917b2-95b6-46c6-b1c8-40f667b29ed0\/scratchpad\/ccn-push\/.build\/out\/SDKExplicitPrecompiledModules\/sys_types-A5T3RLIABR6AZ7J7G5121RD04.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "sys_types"
+  }
+]
